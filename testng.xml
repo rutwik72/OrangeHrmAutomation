@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/javapro/OrangeHRM">
+        <classes>
+          <!--  <class name="test.LoginTest"></class>-->
+           <!-- <class name="test.AddNewEmployee"></class>-->
+            <class name="test.EditEmployee"></class>
+
+        </classes>
+    </test>
+</suite>
+
