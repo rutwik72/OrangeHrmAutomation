@@ -24,4 +24,4 @@ jobs:
    echo "::add-path::D:\javapro\OrangeHRM\src\test\resources\chromedriver.exe" 
    
    - name: Run tests 
-   run: mvn test
+     run: mvn test
