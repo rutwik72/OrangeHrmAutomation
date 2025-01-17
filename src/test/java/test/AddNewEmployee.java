@@ -20,14 +20,16 @@ public class AddNewEmployee extends Browser {
 
         HomePage obj=new HomePage(driver);
         obj.ClickOnPim();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         PimPage obj2= new PimPage(driver);
 
-        String actualname= obj2.AddNewEmployee("Amey","mane");
-        System.out.println(actualname);
-        String expectedname ="Amey mane";
+        String actualname= obj2.AddNewEmployee("Omkar","mane");
+
+        String expectedname ="Omkar mane";
         Assert.assertEquals(actualname,expectedname);
+
+        Thread.sleep(5000);
 
 
 

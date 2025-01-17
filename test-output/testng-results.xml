@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="39618" started-at="2024-04-21T17:13:01 IST" finished-at="2024-04-21T17:13:40 IST">
+  <suite name="All Test Suite" duration-ms="96092" started-at="2025-01-17T21:33:13 IST" finished-at="2025-01-17T21:34:49 IST">
     <groups>
     </groups>
-    <test name="D:/javapro/OrangeHRM" duration-ms="39618" started-at="2024-04-21T17:13:01 IST" finished-at="2024-04-21T17:13:40 IST">
-      <class name="test.EditEmployee">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.EditEmployee@3327bd23]" name="setup" is-config="true" duration-ms="9871" started-at="2024-04-21T17:13:01 IST" finished-at="2024-04-21T17:13:11 IST">
+    <test name="D:/javapro/OrangeHRM" duration-ms="96092" started-at="2025-01-17T21:33:13 IST" finished-at="2025-01-17T21:34:49 IST">
+      <class name="test.AddAdminUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddAdminUser@7fac631b]" name="setup" is-config="true" duration-ms="5631" started-at="2025-01-17T21:34:28 IST" finished-at="2025-01-17T21:34:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="editEmployeeData()[pri:0, instance:test.EditEmployee@3327bd23]" name="editEmployeeData" duration-ms="28565" started-at="2024-04-21T17:13:11 IST" finished-at="2024-04-21T17:13:39 IST">
+        <test-method status="PASS" signature="addAdminUser()[pri:0, instance:test.AddAdminUser@7fac631b]" name="addAdminUser" duration-ms="14772" started-at="2025-01-17T21:34:33 IST" finished-at="2025-01-17T21:34:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editEmployeeData -->
-        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.EditEmployee@3327bd23]" name="QuitBrowser" is-config="true" duration-ms="1144" started-at="2024-04-21T17:13:39 IST" finished-at="2024-04-21T17:13:40 IST">
+        </test-method> <!-- addAdminUser -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.AddAdminUser@7fac631b]" name="QuitBrowser" is-config="true" duration-ms="747" started-at="2025-01-17T21:34:48 IST" finished-at="2025-01-17T21:34:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
-      </class> <!-- test.EditEmployee -->
+      </class> <!-- test.AddAdminUser -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@52a86356]" name="setup" is-config="true" duration-ms="4394" started-at="2025-01-17T21:33:13 IST" finished-at="2025-01-17T21:33:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.LoginTest@52a86356]" name="Login" duration-ms="6831" started-at="2025-01-17T21:33:17 IST" finished-at="2025-01-17T21:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.LoginTest@52a86356]" name="QuitBrowser" is-config="true" duration-ms="708" started-at="2025-01-17T21:33:24 IST" finished-at="2025-01-17T21:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.AddNewEmployee">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddNewEmployee@7b49cea0]" name="setup" is-config="true" duration-ms="4821" started-at="2025-01-17T21:33:25 IST" finished-at="2025-01-17T21:33:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InsertNewEmployee()[pri:0, instance:test.AddNewEmployee@7b49cea0]" name="InsertNewEmployee" duration-ms="21951" started-at="2025-01-17T21:33:29 IST" finished-at="2025-01-17T21:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertNewEmployee -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.AddNewEmployee@7b49cea0]" name="QuitBrowser" is-config="true" duration-ms="741" started-at="2025-01-17T21:33:51 IST" finished-at="2025-01-17T21:33:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.AddNewEmployee -->
+      <class name="test.SearchEmployee">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.SearchEmployee@887af79]" name="setup" is-config="true" duration-ms="7251" started-at="2025-01-17T21:33:52 IST" finished-at="2025-01-17T21:33:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchEmplyeeData()[pri:0, instance:test.SearchEmployee@887af79]" name="searchEmplyeeData" duration-ms="27471" started-at="2025-01-17T21:33:59 IST" finished-at="2025-01-17T21:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmplyeeData -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.SearchEmployee@887af79]" name="QuitBrowser" is-config="true" duration-ms="746" started-at="2025-01-17T21:34:27 IST" finished-at="2025-01-17T21:34:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.SearchEmployee -->
     </test> <!-- D:/javapro/OrangeHRM -->
   </suite> <!-- All Test Suite -->
 </testng-results>
