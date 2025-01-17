@@ -3,9 +3,11 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/javapro/OrangeHRM">
         <classes>
-          <!--  <class name="test.LoginTest"></class>-->
-           <!-- <class name="test.AddNewEmployee"></class>-->
-            <class name="test.EditEmployee"></class>
+            <class name="test.LoginTest"></class>
+            <class name="test.AddNewEmployee"></class>
+           <class name="test.SearchEmployee"></class>
+            <class name="test.AddAdminUser"></class>
+
 
         </classes>
     </test>

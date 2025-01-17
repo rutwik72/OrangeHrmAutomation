@@ -10,10 +10,7 @@ public class HomePage {
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
-
     private By PIM= By.xpath("(//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'])[2]");
-
-
 
 
     public void ClickOnPim(){

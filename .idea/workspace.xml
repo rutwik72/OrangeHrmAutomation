@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Commitone">
+    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Committwo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/AddAdminUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/PimPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/PimPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/EditEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SearchEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.EditEmployee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.EditEmployee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2fEdkZkpQY33qQ31Y0ra4Cx5eIX" />
@@ -41,7 +66,17 @@
       <recent name="D:\javapro\OrangeHRM\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/javapro/OrangeHRM/testng.xml">
+  <component name="RunManager" selected="TestNG.D:/javapro/OrangeHRM/test-output/testng-failed.xml">
+    <configuration name="D:/javapro/OrangeHRM/test-output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/test-output/testng-failed.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/javapro/OrangeHRM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <shortenClasspath name="NONE" />
@@ -82,10 +117,15 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.D:/javapro/OrangeHRM/test-output/testng-failed.xml" />
       <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
+        <item itemvalue="TestNG.D:/javapro/OrangeHRM/test-output/testng-failed.xml" />
+        <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
+        <item itemvalue="TestNG.D:/javapro/OrangeHRM/test-output/testng-failed.xml" />
         <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
       </list>
     </recent_temporary>
@@ -106,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713700081413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Committwo">
+      <created>1713700371730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713700371730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commitone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commitone" />
+    <MESSAGE value="Committwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committwo" />
   </component>
 </project>

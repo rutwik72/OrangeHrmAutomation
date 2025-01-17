@@ -46,10 +46,10 @@ public class PimPage {
 
     }
 
-    public void searchforemployee(String empname, String empid){
+    public void searchForEmployeeWithName(String name){
 
-        driver.findElement(namesearchbox).sendKeys(empname);
-        driver.findElement(idsearchbox).sendKeys(empid);
+        driver.findElement(namesearchbox).sendKeys(name);
+
         driver.findElement(searchemployeebutton).click();
 
     }
