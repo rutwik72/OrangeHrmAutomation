@@ -1,5 +1,8 @@
 name: Run Maven Tests on Windows with Chrome and Java 17
 
+on:
+  workflow_dispatch:  # This allows you to trigger the workflow manually
+
 jobs:
   build:
     runs-on: windows-latest  # Use a Windows runner
