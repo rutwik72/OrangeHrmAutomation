@@ -7,7 +7,7 @@ import page.HomePage;
 import page.LoginPage;
 import page.PimPage;
 
-public class AddNewEmployee extends Browser {
+public class AddNewEmployeeTest extends Browser {
 
 
     @Test

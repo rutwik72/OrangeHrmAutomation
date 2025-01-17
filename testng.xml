@@ -4,9 +4,9 @@
     <test verbose="2" preserve-order="true" name="D:/javapro/OrangeHRM">
         <classes>
             <class name="test.LoginTest"></class>
-            <class name="test.AddNewEmployee"></class>
-           <class name="test.SearchEmployee"></class>
-            <class name="test.AddAdminUser"></class>
+            <class name="test.AddNewEmployeeTest"></class>
+           <class name="test.SearchEmployeeTest"></class>
+            <class name="test.AddAdminUserTest"></class>
 
 
         </classes>

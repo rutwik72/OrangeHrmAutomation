@@ -6,7 +6,7 @@ import page.HomePage;
 import page.LoginPage;
 import page.PimPage;
 
-public class SearchEmployee extends Browser {
+public class SearchEmployeeTest extends Browser {
 
     @Test
     public void searchEmplyeeData() throws InterruptedException {

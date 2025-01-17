@@ -3,12 +3,12 @@ package test;
 import base.Browser;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 import page.AdminPage;
 import page.LoginPage;
 
-public class AddAdminUser extends Browser {
+public class AddAdminUserTest extends Browser {
 
 
     @Test
