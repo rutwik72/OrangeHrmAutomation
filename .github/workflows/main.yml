@@ -18,8 +18,10 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@latest
-
-      - name: Run tests
-        run: mvn test
+   - name: Add ChromeDriver to PATH 
+   run: | 
+   echo "Setting up ChromeDriver..." 
+   echo "::add-path::D:\javapro\OrangeHRM\src\test\resources\chromedriver.exe" 
+   
+   - name: Run tests 
+   run: mvn test
