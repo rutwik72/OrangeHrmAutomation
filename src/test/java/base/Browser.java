@@ -14,7 +14,7 @@ public class Browser {
 
     @BeforeMethod
     public  void setup (){
-        System.setProperty("webdriver.chrome.driver","D:\\javapro\\OrangeHRM\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
 
         driver=new ChromeDriver();
         driver.manage().window().maximize();
