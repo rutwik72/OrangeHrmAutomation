@@ -24,26 +24,3 @@ jobs:
 
     - name: Run Tests with Chrome
       run: mvn clean test -Dwebdriver.chrome.driver=src/test/resources/chromedriver.exe
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-src/test/resources/chromedriver.exe
