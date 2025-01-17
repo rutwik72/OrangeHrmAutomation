@@ -26,4 +26,4 @@ jobs:
           ${{ runner.os }}-maven-
 
     - name: Run Tests with Chrome
-      run: mvn clean test -Dwebdriver.chrome.driver=src/test/resources/chromedriver.exe
+      run: mvn clean test -Dwebdriver.chrome.driver=/src/test/resources/chromedriver.exe
