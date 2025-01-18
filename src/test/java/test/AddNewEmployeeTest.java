@@ -26,6 +26,7 @@ public class AddNewEmployeeTest extends Browser {
 
         String actualname= obj2.AddNewEmployee("Omkar","mane");
 
+
         String expectedname ="Omkar mane";
         Assert.assertEquals(actualname,expectedname);
 

@@ -32,9 +32,10 @@ public class PimPage {
         driver.findElement(AddButton).click();
         driver.findElement(Firstname).sendKeys(firstname);
         driver.findElement(lastname).sendKeys(lastnameofemployee);
+        Thread.sleep(3000);
         driver.findElement(savebutton).click();
 
-        Thread.sleep(7000);
+        Thread.sleep(8000);
 
         String actualname = driver.findElement(addedName).getText();
         return actualname;
