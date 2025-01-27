@@ -13,9 +13,7 @@ public class AdminPage {
 
 
     private By adminButton = By.xpath("//span[text()=\"Admin\"]");
-
     private By adminUserManagementTitle = By.xpath("//h6[text()=\"Admin\"]");
-
     private By userManagementButton = By.xpath("//span[text()=\"User Management \"]");
     private By userButton = By.xpath("//a[text()=\"Users\"]");
     private By addAdminButton = By.xpath("//button[text()=\" Add \"]");

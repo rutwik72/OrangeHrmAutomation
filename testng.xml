@@ -5,10 +5,10 @@
         <classes>
             <class name="test.LoginTest"></class>
             <class name="test.AddNewEmployeeTest"></class>
-           <class name="test.SearchEmployeeTest"></class>
+            <class name="test.SearchEmployeeTest"></class>
             <class name="test.AddAdminUserTest"></class>
-
-
+            <class name="test.UploadEmployeeAttachmentTest"></class>
+            <class name="test.DownloadEmployeeAttachmentTest"></class>
         </classes>
     </test>
 </suite>
