@@ -9,6 +9,7 @@
             <class name="test.AddAdminUserTest"></class>
             <class name="test.UploadEmployeeAttachmentTest"></class>
             <class name="test.DownloadEmployeeAttachmentTest"></class>
+            <class name="test.UpdateEmployeePersonalDetailsTest"></class>
         </classes>
     </test>
 </suite>
