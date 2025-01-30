@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Added Jenkinsfile">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/DownloadEmployeeAttachmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/UploadEmployeeAttachmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Dummy_Doc_cv.pdf" afterDir="false" />
+    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Added new test">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/PimPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/PimPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddAdminUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddAdminUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/DownloadEmployeeAttachmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DownloadEmployeeAttachmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/SearchEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SearchEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/UpdateEmployeePersonalDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UpdateEmployeePersonalDetailsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/UploadEmployeeAttachmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UploadEmployeeAttachmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
@@ -22,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +54,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/javapro/OrangeHRM/src/test/java/utilities",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javapro/OrangeHRM/src/test/java/utilities&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javapro\OrangeHRM\src\test\java\utilities" />
@@ -68,7 +72,7 @@
       <recent name="D:\javapro\OrangeHRM\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DownloadEmployeeAttachmentTest.downloadEmployeeAttachmentMethod">
+  <component name="RunManager" selected="TestNG.D:/javapro/OrangeHRM/testng.xml">
     <configuration name="D:/javapro/OrangeHRM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <shortenClasspath name="NONE" />
@@ -89,24 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadEmployeeAttachmentTest.DownloadEmployeeAttachmentMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHRM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.DownloadEmployeeAttachmentTest" />
-      <option name="METHOD_NAME" value="DownloadEmployeeAttachmentMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DownloadEmployeeAttachmentTest.downloadEmployeeAttachmentMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <extension name="coverage">
@@ -118,6 +104,24 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DownloadEmployeeAttachmentTest" />
       <option name="METHOD_NAME" value="downloadEmployeeAttachmentMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
+      <option name="METHOD_NAME" value="Login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadEmployeeAttachmentTest.UploadEmployeeAttachmentTestMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateEmployeePersonalDetailsTest.updateEmployeePersonalDetailsMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRM" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +156,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.UploadEmployeeAttachmentTest" />
-      <option name="METHOD_NAME" value="UploadEmployeeAttachmentTestMethod" />
+      <option name="MAIN_CLASS_NAME" value="test.UpdateEmployeePersonalDetailsTest" />
+      <option name="METHOD_NAME" value="updateEmployeePersonalDetailsMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,19 +185,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.DownloadEmployeeAttachmentTest.DownloadEmployeeAttachmentMethod" />
       <item itemvalue="TestNG.DownloadEmployeeAttachmentTest.downloadEmployeeAttachmentMethod" />
-      <item itemvalue="TestNG.UploadEmployeeAttachmentTest.UploadEmployeeAttachmentTestMethod" />
+      <item itemvalue="TestNG.LoginTest.Login" />
+      <item itemvalue="TestNG.UpdateEmployeePersonalDetailsTest.updateEmployeePersonalDetailsMethod" />
       <item itemvalue="TestNG.UploadEmployeeAttachmentTest.uploadEmployeeAttachmentTestMethod" />
       <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DownloadEmployeeAttachmentTest.downloadEmployeeAttachmentMethod" />
         <item itemvalue="TestNG.D:/javapro/OrangeHRM/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.Login" />
+        <item itemvalue="TestNG.UpdateEmployeePersonalDetailsTest.updateEmployeePersonalDetailsMethod" />
+        <item itemvalue="TestNG.DownloadEmployeeAttachmentTest.downloadEmployeeAttachmentMethod" />
         <item itemvalue="TestNG.UploadEmployeeAttachmentTest.uploadEmployeeAttachmentTestMethod" />
-        <item itemvalue="TestNG.DownloadEmployeeAttachmentTest.DownloadEmployeeAttachmentMethod" />
-        <item itemvalue="TestNG.UploadEmployeeAttachmentTest.UploadEmployeeAttachmentTestMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737195445908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added upload and download test">
+      <created>1737992411434</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737992411434</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added new test">
+      <created>1738077486509</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738077486510</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +286,8 @@
     <MESSAGE value="Commit by adding new test2" />
     <MESSAGE value="Commit changed class names" />
     <MESSAGE value="Added Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Jenkinsfile" />
+    <MESSAGE value="Added upload and download test" />
+    <MESSAGE value="Added new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new test" />
   </component>
 </project>

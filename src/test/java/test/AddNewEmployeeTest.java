@@ -27,6 +27,7 @@ public class AddNewEmployeeTest extends Browser {
 
 
         String actualname= obj2.AddNewEmployee("Omkar","mane");
+        logger.info("Adding new employee");
 
 
         String expectedname ="Omkar mane";
@@ -36,10 +37,11 @@ public class AddNewEmployeeTest extends Browser {
 
 
 
-
+        logger.info("-----------------Add new Employee Test is Passed---------------");
 
 
     }
+
 
 
 

@@ -34,5 +34,7 @@ public class AddAdminUserTest extends Browser {
 
         Thread.sleep(5000);
 
+        logger.info("------------------Add Admin User test is passed-----------");
+
     }
 }

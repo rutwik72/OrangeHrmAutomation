@@ -43,6 +43,8 @@ public class DownloadEmployeeAttachmentTest extends Browser {
         pim.downLoadAttachedFile();
         Thread.sleep(3000);
 
+        logger.info("------------------------Download Employee Attachment test is passed------------------");
+
 
 
     }

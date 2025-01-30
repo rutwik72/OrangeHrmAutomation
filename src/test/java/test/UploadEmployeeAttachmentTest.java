@@ -34,6 +34,8 @@ public class UploadEmployeeAttachmentTest extends Browser {
         String expectedFileName = "Dummy_Doc_cv.pdf";
         Assert.assertEquals(actualFileName, expectedFileName);
 
+        logger.info("----------------------Upload Employee Attachment test is passed--------------------");
+
 
     }
 

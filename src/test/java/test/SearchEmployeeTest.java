@@ -32,6 +32,8 @@ public class SearchEmployeeTest extends Browser {
 
         Thread.sleep(5000);
 
+        logger.info("------------------------Search Employee test is passed------------------");
+
 
     }
 }

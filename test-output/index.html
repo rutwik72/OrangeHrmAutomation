@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,16 +112,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="test.LoginTest" hash-for-method="Login">Login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="test.AddAdminUserTest" hash-for-method="addAdminUser">addAdminUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="test.SearchEmployeeTest" hash-for-method="searchEmplyeeData">searchEmplyeeData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
                   </li>
                 </ul>
@@ -137,14 +127,14 @@
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.SearchEmployeeTest</span>
+              <span class="class-name">test.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchEmplyeeData">
-                  </a> <!-- searchEmplyeeData -->
-                  <span class="method-name">searchEmplyeeData</span>
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,36 +154,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.AddAdminUserTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addAdminUser">
-                  </a> <!-- addAdminUser -->
-                  <span class="method-name">addAdminUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -208,8 +168,6 @@
     &lt;classes&gt;
       &lt;class name=&quot;test.LoginTest&quot;/&gt;
       &lt;class name=&quot;test.AddNewEmployeeTest&quot;/&gt;
-      &lt;class name=&quot;test.SearchEmployeeTest&quot;/&gt;
-      &lt;class name=&quot;test.AddAdminUserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- D:/javapro/OrangeHRM --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -223,7 +181,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">D:/javapro/OrangeHRM (4 classes)</span>
+                <span class="test-name">D:/javapro/OrangeHRM (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,28 +207,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchEmplyeeData')
-data.setCell(0, 2, 'test.SearchEmployeeTest')
-data.setCell(0, 3, 31800);
+data.setCell(0, 1, 'InsertNewEmployee')
+data.setCell(0, 2, 'test.AddNewEmployeeTest')
+data.setCell(0, 3, 28009);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'InsertNewEmployee')
-data.setCell(1, 2, 'test.AddNewEmployeeTest')
-data.setCell(1, 3, 25940);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addAdminUser')
-data.setCell(2, 2, 'test.AddAdminUserTest')
-data.setCell(2, 3, 17413);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Login')
-data.setCell(3, 2, 'test.LoginTest')
-data.setCell(3, 3, 7566);
+data.setCell(1, 1, 'Login')
+data.setCell(1, 2, 'test.LoginTest')
+data.setCell(1, 3, 7195);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -303,56 +253,26 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">7710 ms</span>
+                <span class="method-start">8159 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">QuitBrowser</span>
-                <span class="method-start">15279 ms</span>
+                <span class="method-start">15356 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.AddNewEmployeeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">16408 ms</span>
+                <span class="method-start">16405 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">InsertNewEmployee</span>
-                <span class="method-start">24205 ms</span>
+                <span class="method-start">22764 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">QuitBrowser</span>
-                <span class="method-start">50146 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.SearchEmployeeTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">51407 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchEmplyeeData</span>
-                <span class="method-start">63699 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">QuitBrowser</span>
-                <span class="method-start">95499 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.AddAdminUserTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">96744 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addAdminUser</span>
-                <span class="method-start">101824 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">QuitBrowser</span>
-                <span class="method-start">119239 ms</span>
+                <span class="method-start">50774 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
