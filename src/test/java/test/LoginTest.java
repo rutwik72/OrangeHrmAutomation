@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.HomePage;
 import page.LoginPage;
+import utilities.ScreenshotUtil;
 
 public class LoginTest extends Browser {
 
@@ -22,6 +23,9 @@ public class LoginTest extends Browser {
             String actualhomepagetitle = driver.getTitle();
             System.out.println(actualhomepagetitle);
             String expectedhomepageTitle = "OrangeHRM";
+
+            Thread.sleep(3000);
+            ScreenshotUtil.captureScreenshot(driver,"HomePage");
 
             Assert.assertEquals(actualhomepagetitle, expectedhomepageTitle);
             logger.info("Login successful");
