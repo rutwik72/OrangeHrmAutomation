@@ -1,39 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="51998" started-at="2025-01-31T00:05:52 IST" finished-at="2025-01-31T00:06:44 IST">
+  <suite name="All Test Suite" duration-ms="303604" started-at="2025-02-03T22:59:29 IST" finished-at="2025-02-03T23:04:32 IST">
     <groups>
     </groups>
-    <test name="D:/javapro/OrangeHRM" duration-ms="51998" started-at="2025-01-31T00:05:52 IST" finished-at="2025-01-31T00:06:44 IST">
-      <class name="test.AddNewEmployeeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddNewEmployeeTest@7fac631b]" name="setup" is-config="true" duration-ms="6359" started-at="2025-01-31T00:06:09 IST" finished-at="2025-01-31T00:06:15 IST">
+    <test name="D:/javapro/OrangeHRM" duration-ms="303604" started-at="2025-02-03T22:59:29 IST" finished-at="2025-02-03T23:04:32 IST">
+      <class name="test.SearchEmployeeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.SearchEmployeeTest@4d41cee]" name="setup" is-config="true" duration-ms="8543" started-at="2025-02-03T23:00:29 IST" finished-at="2025-02-03T23:00:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="InsertNewEmployee()[pri:0, instance:test.AddNewEmployeeTest@7fac631b]" name="InsertNewEmployee" duration-ms="28009" started-at="2025-01-31T00:06:15 IST" finished-at="2025-01-31T00:06:43 IST">
+        <test-method status="PASS" signature="searchEmplyeeData()[pri:0, instance:test.SearchEmployeeTest@4d41cee]" name="searchEmplyeeData" duration-ms="32731" started-at="2025-02-03T23:00:37 IST" finished-at="2025-02-03T23:01:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmplyeeData -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.SearchEmployeeTest@4d41cee]" name="QuitBrowser" is-config="true" duration-ms="1327" started-at="2025-02-03T23:01:10 IST" finished-at="2025-02-03T23:01:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.SearchEmployeeTest -->
+      <class name="test.UpdateEmployeePersonalDetailsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.UpdateEmployeePersonalDetailsTest@27a8c74e]" name="setup" is-config="true" duration-ms="11039" started-at="2025-02-03T23:03:17 IST" finished-at="2025-02-03T23:03:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="updateEmployeePersonalDetailsMethod()[pri:0, instance:test.UpdateEmployeePersonalDetailsTest@27a8c74e]" name="updateEmployeePersonalDetailsMethod" duration-ms="63509" started-at="2025-02-03T23:03:28 IST" finished-at="2025-02-03T23:04:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeePersonalDetailsMethod -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.UpdateEmployeePersonalDetailsTest@27a8c74e]" name="QuitBrowser" is-config="true" duration-ms="1255" started-at="2025-02-03T23:04:31 IST" finished-at="2025-02-03T23:04:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.UpdateEmployeePersonalDetailsTest -->
+      <class name="test.DownloadEmployeeAttachmentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.DownloadEmployeeAttachmentTest@33f88ab]" name="setup" is-config="true" duration-ms="11224" started-at="2025-02-03T23:02:23 IST" finished-at="2025-02-03T23:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="downloadEmployeeAttachmentMethod()[pri:0, instance:test.DownloadEmployeeAttachmentTest@33f88ab]" name="downloadEmployeeAttachmentMethod" duration-ms="41252" started-at="2025-02-03T23:02:34 IST" finished-at="2025-02-03T23:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadEmployeeAttachmentMethod -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.DownloadEmployeeAttachmentTest@33f88ab]" name="QuitBrowser" is-config="true" duration-ms="1252" started-at="2025-02-03T23:03:15 IST" finished-at="2025-02-03T23:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.DownloadEmployeeAttachmentTest -->
+      <class name="test.AddNewEmployeeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddNewEmployeeTest@17579e0f]" name="setup" is-config="true" duration-ms="8511" started-at="2025-02-03T22:59:52 IST" finished-at="2025-02-03T23:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InsertNewEmployee()[pri:0, instance:test.AddNewEmployeeTest@17579e0f]" name="InsertNewEmployee" duration-ms="27437" started-at="2025-02-03T23:00:00 IST" finished-at="2025-02-03T23:00:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InsertNewEmployee -->
-        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.AddNewEmployeeTest@7fac631b]" name="QuitBrowser" is-config="true" duration-ms="1173" started-at="2025-01-31T00:06:43 IST" finished-at="2025-01-31T00:06:44 IST">
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.AddNewEmployeeTest@17579e0f]" name="QuitBrowser" is-config="true" duration-ms="732" started-at="2025-02-03T23:00:28 IST" finished-at="2025-02-03T23:00:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
       </class> <!-- test.AddNewEmployeeTest -->
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@78c03f1f]" name="setup" is-config="true" duration-ms="8158" started-at="2025-01-31T00:05:52 IST" finished-at="2025-01-31T00:06:00 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@30b8a058]" name="setup" is-config="true" duration-ms="12785" started-at="2025-02-03T22:59:29 IST" finished-at="2025-02-03T22:59:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:test.LoginTest@78c03f1f]" name="Login" duration-ms="7195" started-at="2025-01-31T00:06:00 IST" finished-at="2025-01-31T00:06:08 IST">
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.LoginTest@30b8a058]" name="Login" duration-ms="9549" started-at="2025-02-03T22:59:42 IST" finished-at="2025-02-03T22:59:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.LoginTest@78c03f1f]" name="QuitBrowser" is-config="true" duration-ms="1044" started-at="2025-01-31T00:06:08 IST" finished-at="2025-01-31T00:06:09 IST">
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.LoginTest@30b8a058]" name="QuitBrowser" is-config="true" duration-ms="730" started-at="2025-02-03T22:59:51 IST" finished-at="2025-02-03T22:59:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
       </class> <!-- test.LoginTest -->
+      <class name="test.AddAdminUserTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AddAdminUserTest@3712b94]" name="setup" is-config="true" duration-ms="9727" started-at="2025-02-03T23:01:11 IST" finished-at="2025-02-03T23:01:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addAdminUser()[pri:0, instance:test.AddAdminUserTest@3712b94]" name="addAdminUser" duration-ms="14719" started-at="2025-02-03T23:01:21 IST" finished-at="2025-02-03T23:01:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdminUser -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.AddAdminUserTest@3712b94]" name="QuitBrowser" is-config="true" duration-ms="1234" started-at="2025-02-03T23:01:36 IST" finished-at="2025-02-03T23:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.AddAdminUserTest -->
+      <class name="test.UploadEmployeeAttachmentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.UploadEmployeeAttachmentTest@2833cc44]" name="setup" is-config="true" duration-ms="9269" started-at="2025-02-03T23:01:37 IST" finished-at="2025-02-03T23:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadEmployeeAttachmentTestMethod()[pri:0, instance:test.UploadEmployeeAttachmentTest@2833cc44]" name="uploadEmployeeAttachmentTestMethod" duration-ms="35630" started-at="2025-02-03T23:01:46 IST" finished-at="2025-02-03T23:02:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadEmployeeAttachmentTestMethod -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:test.UploadEmployeeAttachmentTest@2833cc44]" name="QuitBrowser" is-config="true" duration-ms="1107" started-at="2025-02-03T23:02:22 IST" finished-at="2025-02-03T23:02:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- test.UploadEmployeeAttachmentTest -->
     </test> <!-- D:/javapro/OrangeHRM -->
   </suite> <!-- All Test Suite -->
 </testng-results>

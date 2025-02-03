@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Added new test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="02e1c2d9-e5aa-4223-9b22-847b9922781c" name="Changes" comment="Added ScreenshotUtil">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddAdminUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddAdminUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewEmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/DownloadEmployeeAttachmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DownloadEmployeeAttachmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/SearchEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SearchEmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/UpdateEmployeePersonalDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UpdateEmployeePersonalDetailsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/UploadEmployeeAttachmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UploadEmployeeAttachmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/D__javapro_OrangeHRM.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
@@ -266,7 +256,28 @@
       <option name="project" value="LOCAL" />
       <updated>1738077486510</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added logger and logs">
+      <created>1738262369495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738262369495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added logger and logs">
+      <created>1738262772461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738262772461</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added ScreenshotUtil">
+      <created>1738603570530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738603570530</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +299,8 @@
     <MESSAGE value="Added Jenkinsfile" />
     <MESSAGE value="Added upload and download test" />
     <MESSAGE value="Added new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new test" />
+    <MESSAGE value="Added logger and logs" />
+    <MESSAGE value="Added ScreenshotUtil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ScreenshotUtil" />
   </component>
 </project>
