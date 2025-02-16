@@ -24,7 +24,7 @@ public class Browser {
 
         logger = LogManager.getLogger(this.getClass());           // should be Log4j
 
-        System.setProperty("webdriver.chrome.driver","D:\\javapro\\OrangeHRM\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
 
         driver=new ChromeDriver();
         driver.manage().window().maximize();

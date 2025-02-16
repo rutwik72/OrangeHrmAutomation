@@ -37,7 +37,7 @@ public class AddNewEmployeeTest extends Browser {
 
 
 
-        logger.info("-----------------Add new Employee Test is Passed---------------");
+        logger.info("-----------------Add new Employee Test is passed---------------");
 
 
     }

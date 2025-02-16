@@ -11,13 +11,14 @@
         <RollingFile name="File" fileName="logs/test-automation.log" filePattern="logs/$${date:yyyy-MM-dd}/test-%d{HH}.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
             <Policies>
+                <TimeBasedTriggeringPolicy/>
                 <SizeBasedTriggeringPolicy size="10MB"/>
             </Policies>
         </RollingFile>
     </Appenders>
 
     <Loggers>
-        <Root level="info">
+        <Root level="info"> <!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error < Fatal < Off -->
             <AppenderRef ref="Console"/>
             <AppenderRef ref="File"/>
         </Root>
