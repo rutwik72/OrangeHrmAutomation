@@ -18,7 +18,7 @@ public class LoginTest extends Browser {
 
             logger.info("Logging in to orange HRM portal");  // Adding info logs
 
-
+            Thread.sleep(3000);
             obj.Login();
             String actualhomepagetitle = driver.getTitle();
             System.out.println(actualhomepagetitle);
@@ -33,7 +33,7 @@ public class LoginTest extends Browser {
             Thread.sleep(5000);
         }
         catch (Exception e){
-            logger.error("Error in login test");                   //error log
+            logger.error("Error in login test"+e);                   //error log
             logger.debug("Debug log in login test");               // Debug log
         }
 

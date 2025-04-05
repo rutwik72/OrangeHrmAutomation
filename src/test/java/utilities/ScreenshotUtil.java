@@ -17,7 +17,7 @@ public class ScreenshotUtil {
         String timestamp = new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss").format(new Date());
         String screenshotPath = System.getProperty("user.dir") + "/Screenshots/" + testName + "_" + timestamp + ".png";
 
-        TakesScreenshot ts = (TakesScreenshot) driver;                                 //casting
+        TakesScreenshot ts = (TakesScreenshot) driver;                                 //casting 'TakesScreenshot' is interface
         File src = ts.getScreenshotAs(OutputType.FILE);                              // taking screenshot
 
         try {

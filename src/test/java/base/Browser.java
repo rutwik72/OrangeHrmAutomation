@@ -7,9 +7,11 @@ import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utilities.ScreenshotUtil;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,16 +26,22 @@ public class Browser {
 
         logger = LogManager.getLogger(this.getClass());           // should be Log4j
 
-        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
 
-        driver=new ChromeDriver();
+      WebDriverManager.chromedriver().setup(); // Handles version matching
+
+        // to maintain chrome versions - Added dependency of webdrivermanager
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+
+       driver = new ChromeDriver(options);
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
         Thread.sleep(3000);
         ScreenshotUtil.captureScreenshot(driver,"LoginPage");
-
         logger.info("Opened OrangeHRM");  // Adding logs
     }
 
